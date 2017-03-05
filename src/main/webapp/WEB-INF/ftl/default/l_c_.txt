@@ -1,0 +1,5 @@
+[@cms_content_list count=3]
+[#list content as c]
+	<a>c.contentId</a>
+[/#list]
+[/@cms_content_list]
